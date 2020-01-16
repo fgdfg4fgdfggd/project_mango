@@ -21,8 +21,8 @@ class Invite extends Command {
     const inviteEmbed = new Discord.MessageEmbed()
       .setTitle("Invite Me!")
       .setDescription(`Phantom - All in one moderation bot.
-- Phantom's Invite Link:  https://rcdforum.com/
- This link contains Administrator permission which are neccesary for the bot to work properly. We highly disrecommend changing the permissions.
+- Phantom's RCDForum Link:  https://rcdforum.com/
+ RCDForum site for RCD.
 
 - Support Server Invite Link: https://discord.gg/GPMH6YD
  This link redirects you to the Phantom's Support Server where you can ask for assistance, report bugs or even give us suggestions on what we should add and/or improve.
