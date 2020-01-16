@@ -5,7 +5,7 @@ class Invite extends Command {
   constructor (client) {
     super(client, {
       name: "support",
-      description: "Get a link to Lutu's Support server (Lutu's House).",
+      description: "Get a link to Phantom's Support server.",
       category: "General",
       usage: "",
       enabled: true,
@@ -21,7 +21,7 @@ class Invite extends Command {
     const inviteEmbed = new Discord.MessageEmbed()
       .setTitle("My Support Server!")
       .setAuthor(message.author.tag, message.author.displayAvatarURL())
-      .setDescription("- Instant Invite link: https://discord.gg/?\nThis link will redirect you to Lutu's Support Server. There you can ask for assistance, report a bug, suggest new features or improvements to existing ones, or just to hang out with our friendly members. \r\nYou will also receive announcements and status updates, which are a necessity to keep yourself up to date.")
+      .setDescription("- Instant Invite link: https://discord.gg/GPMH6YD link will redirect you to Phantom's Support Server. There you can ask for assistance, report a bug, suggest new features or improvements to existing ones, or just to hang out with our friendly members. \r\nYou will also receive announcements and status updates, which are a necessity to keep yourself up to date.")
       .setColor("#36393e")
       .setTimestamp();
     reply(inviteEmbed);
