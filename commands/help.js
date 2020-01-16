@@ -27,7 +27,7 @@ class Help extends Command {
           .addField("Settings - `" + message.guild.settings.prefix + "help settings`", `Commands help you set up your server. For other features [check dashboad](http://${this.client.config.dashboard.domain}/).`)
           .addField("Tools - `" + message.guild.settings.prefix + "help tools`", `Usefull tools that you will most liekly use at some point.`)
           .addField("Ban List - `" + message.guild.settings.prefix + "help banlist`", `Commands regarding ban list.`)
-          .addField("Tags - `" + message.guild.settings.prefix + "help tags`", `Server custom commands.\n\nRCDForum: [https://RCDForum.com/lutubot](https://RCDForum.com/lutubot)`);
+          .addField("Tags - `" + message.guild.settings.prefix + "help tags`", `Server custom commands.\n\nRCDForum: [https://RCDForum.com/](https://RCDForum.com/)`);
         reply(emb);
      } else if (args[0].toLowerCase() === "moderation") {
        var cmds = this.client.commands.filter(c => c.help.category === "Moderation" && c.conf.enabled === true);
